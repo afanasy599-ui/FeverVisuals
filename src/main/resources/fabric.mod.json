@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "fevervisuals",
+  "version": "${version}",
+  "name": "FeverVisuals",
+  "description": "Neon Purple visual enhancement client for Minecraft 1.21.11.",
+  "authors": ["FeverVisuals"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.fevervisuals.FeverVisuals"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
